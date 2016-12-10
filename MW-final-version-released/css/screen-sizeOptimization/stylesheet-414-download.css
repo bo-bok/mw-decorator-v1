@@ -1,0 +1,105 @@
+/* stylesheet-max-width414.css */
+/* this stylesheet sets design for phones (iphone 6s and below)*/
+
+h1.pageTitle {
+	margin-top: 55%;
+}
+
+/*page heights */
+#home {
+	height:;	
+	padding: 0%;
+}
+
+#about {
+	height: 40.34%;	
+		background-color: yellow;	
+	
+}
+
+#services {
+	height: 40.34%;		
+}
+
+#faq {
+	height: 68.34%;		
+}
+
+#testimonials {
+	height: 40.34%;		
+}
+
+#contact {
+	height: ;		
+}
+
+
+/* page layout adjustments */ 
+/* home page */
+#imagePlaceholderAbout {
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+/* about page */
+#sloganBox {
+	min-height: 30%;
+	max-height: 70%;
+	min-width: 30%;
+	max-width: 80%;
+	margin: 60% auto 10% auto;
+}
+
+
+
+
+
+/*header*/
+#telephone {
+	font-size: 26px;
+}
+
+
+
+
+/* navigation format */
+
+/* controls navigation box format*/
+#navigation { 
+	/*position: fixed;*/
+  	min-height: 30%;
+  	max-height: ;
+  	margin-top: 10%;
+
+}
+
+#navigation-opacity  {
+	position: absolute;
+	height: 100%
+	width: 100%
+ 	opacity: 0.4;
+}
+ 
+
+/* controls appearance/ position of links in navigation */
+a.navlink {
+	text-decoration: none;
+  	margin-top: 0%;
+  	margin-left: 0px;
+	padding: 2px;
+  	color: #fff; 
+}
+
+li.nav {
+  text-transform: none;
+  letter-spacing: 0.13em;
+  line-height: 1.8em;
+  font-size: 26px;
+  margin-right: 0;
+  margin-left: 0%;
+  padding: 4px;
+  color: #fff;
+}
+
+
+

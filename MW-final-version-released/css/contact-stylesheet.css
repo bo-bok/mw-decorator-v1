@@ -1,0 +1,112 @@
+
+/* contact-stylesheet.css */
+/* this doc controls design for the Contact page */ 
+
+
+/* page setup */
+#contact {
+	height: 16.67%;
+	background-color: #f8f9f9;
+	overflow: hidden;
+	padding: 3.5%;
+	padding-bottom: 0%;
+	display: none;  /* */
+ }
+
+/* controls overall contact form */
+#contactForm {
+	margin-left: 5%;
+	margin-bottom: 0%;
+	margin-top: 1%;
+	float: left;
+	clear: right;
+	max-height:60%; 
+	max-width: 60%;
+	position: relative;
+} 
+
+
+/* contact form labels formatting */ 
+#form1, #form2, #form3, #form4 {
+	padding: 2%;
+}
+
+.title {
+	float: left;
+	width: 120px;
+	text-align: right;
+	padding-right: 10px;
+	clear: right;
+	color: #595959
+}
+
+#submit {
+	margin-left: 85%;
+	float: left;
+	clear: right;
+	color: #595959;
+}
+
+
+/* contact form text box formatting */ 
+input {
+	font-size: 100%;
+	color: #595959;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin-left: 2%;
+	margin-bottom: 0;
+}
+
+input:focus, textarea:focus {
+	background-color: #d7eae9;
+	border: 1px solid grey;
+}
+
+textarea {
+	font-size: 100%;
+	color: #595959;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin-left: 0%;	
+	margin-bottom: 1%;
+}
+
+form {
+	max-width: 100%;
+}
+
+
+
+/* testimonial form formatting (no image here now) */
+#contactImagePlaceholder {
+	width:30%;
+	max-width: 40%;
+	max-height: 80%;
+	float: right;
+	clear: right;
+	margin-right: 6%;
+	margin-top: 0;
+	position: relative;
+	padding: 1%;
+}
+
+/* testimonial formatting */
+#testimonialContact {
+	width: 95%;
+	height: 25%;
+	margin: 5% auto 1% auto;
+	padding: 1%;
+	border-top: 1px solid #595959;
+	border-bottom: 1px solid #595959;
+}
+
+/* copyright formatting */
+#copyright {
+	margin-bottom: 0%;
+	float: right;
+	font-size: 14px;
+	margin-top: 12%;
+	margin-right: 5%;
+}
+

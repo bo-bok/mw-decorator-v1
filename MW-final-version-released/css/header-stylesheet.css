@@ -1,0 +1,71 @@
+
+/* header-stylesheet.css */
+/* this doc controls design of the header */ 
+
+
+/* controls navigation box format*/
+#header {
+	position: fixed;
+	width: 100%; 
+	min-height: 5%;
+	max-height: 7%;
+	margin-bottom: 1%;
+	float: left;
+	clear: right;
+	font-size: 16px;
+	z-index: 7;
+}
+
+#header-opacity {
+	position: absolute;
+	background-color: #5d939a;
+	opacity: 0.35;
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+
+
+/* formatting of information in header bar */
+#telephone {
+	position: relative;
+	float: left;
+	margin-left: 3%;
+	margin-right: 2.5%; /*to change horizontal postion of header texts */ 
+	color: #fff;
+	margin-top: 1%;
+}
+
+#mobile {
+	position: relative;
+	float: left;
+	margin-right: 2.5%;
+	color: #fff;
+	margin-top: 1%;
+
+}
+
+#email {
+	position: relative;
+	float: left;
+	margin-right: 2.5%;
+	color: #fff;
+	margin-top: 1%;
+
+}
+
+#company-name {
+	position: relative;
+	float: right;
+	margin-right:;
+	color: #fff;
+	margin-top: 1%;
+}
+
+#logo {
+	position: relative;
+	float: right;
+	margin-left: 1%;
+	margin-right: 2%;
+	overflow: visible;
+}
