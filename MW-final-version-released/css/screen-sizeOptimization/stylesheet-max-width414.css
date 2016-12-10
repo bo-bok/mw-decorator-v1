@@ -1,0 +1,32 @@
+
+/* stylesheet-max-width414.css */
+/* this stylesheet sets design for phones (iphone 6s and below)*/
+
+h1.pageTitle {
+		margin-top: 18%;
+}
+
+#home {
+	height:;		
+}
+
+#about {
+	height: 36.34%;		
+	background-color: pink;
+}
+
+#services {
+	height: 33.34%;		
+}
+
+#faq {
+	height: 65.34%;		
+}
+
+#testimonials {
+	height: 35.34%;		
+}
+
+#contact {
+	height: ;		
+}

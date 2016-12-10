@@ -1,0 +1,62 @@
+
+/* main-stylesheet-import.css */
+/* this doc contains site-wide design controls and connects with page/ function specification docs */ 
+
+
+
+/* links the page specific stylesheets to this main stylesheet, and in turn tothe main HTML document */
+@import url("navigation-stylesheet.css");
+@import url("header-stylesheet.css");
+@import url("home-stylesheet.css");
+@import url("about-stylesheet.css");
+@import url("services-stylesheet.css");
+@import url("faq-stylesheet.css");
+@import url("testimonials-stylesheet.css");
+@import url("contact-stylesheet.css");
+
+
+/* sets the size of the website (note: 1 'page' = 100%. 5 'pages' x 100% = 500%) */
+html {
+	height: 600%;
+	min-width: 300px;
+}
+
+body {
+	background-color:;
+	overflow: auto;
+	margin: 0 0;
+	z-index: 1;
+	height: 100%;
+	font-size: 18px;
+  	font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+  	color: #fff;
+}
+
+
+/* global (site wide) text formatting */ 
+h1, h2, h3 {
+	color: #595959;
+	font-weight: normal;
+}
+
+p {
+	text-align: justify;
+	color: #7a7a7a;
+	line-height: 1.3em;
+} 
+/* end of global text formatting */
+
+
+/* all page titles */
+h1.pageTitle {
+	margin-top: 11%;
+	margin-left: 5%;
+	max-width: 60%;
+	position: relative;
+}
+
+/* all image borders*/
+.imageBorder {
+	padding: 1%;
+	background-color: #ccc;
+}

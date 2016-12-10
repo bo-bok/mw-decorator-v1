@@ -1,0 +1,42 @@
+
+/* stylesheet-max-width980.css */
+/*this file edits the page size to ensure that content fits on screen of device up to 980px width */
+
+/* header */
+#header {
+	height: 2%;
+	margin-bottom: 6%;
+}
+
+
+/* navigation */
+#navigation { 
+	height: 6%;
+	margin-top: 7%;
+	padding: 0%;
+}
+
+	li.nav {
+		padding: 1.5%;
+		letter-spacing: 0.11em;
+	}
+/* end of navigation  */
+
+
+/* FAQ */
+/* makes faq box smaller and increases left and right margins for easer use on touch screens. */
+#faqBox {
+	height: 50%;
+	width: 75%;
+	padding: 3%;
+	margin-left: 6%;
+}
+
+
+/* contact */
+/* hides testimonial on contact page */
+#testimonialContact {
+	display: none; 
+}
+
+
