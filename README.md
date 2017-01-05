@@ -7,6 +7,6 @@ This contains the first version(s) of Michael Ware's website, added retrospectiv
 * HTML
 * CSS
 
-g
+
 **Assets from:**
 * fotolia.com
