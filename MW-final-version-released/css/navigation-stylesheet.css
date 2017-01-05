@@ -1,0 +1,54 @@
+
+/* navigation-stylesheet.css */
+/* this doc controls design of the navigation bar */ 
+
+/* controls navigation box format*/
+#navigation { 
+	position: fixed;
+	width: 100%; 
+  height: 7%;
+  margin-top: 5%;
+  margin-left: 0%; 
+  float: left;
+  z-index: 6;   	
+}
+
+#navigation-opacity  {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+  background-color: #7a7a7a;
+  opacity: 0.40;
+}
+ 
+#navigation-holder {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+/* controls appearance/ position of links in navigation */
+a.navlink {
+	text-decoration: none;
+  font-weight: normal;
+  margin-top: 0%;
+  margin-left: 0px;
+	padding: 5px;
+  color: #fff; 
+}
+
+li.nav {
+  font-family:'Helvetica Neue', Helvetica, Verdana, sans-serif;
+  text-transform: none;
+  letter-spacing: 0.17em;
+  line-height: 2em;
+  font-size: 24px;
+
+  display: inline;
+  margin-right: 1%;
+  margin-left: 0%;
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+}

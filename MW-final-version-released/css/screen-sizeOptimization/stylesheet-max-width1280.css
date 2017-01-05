@@ -1,0 +1,23 @@
+
+/* stylesheet-max-width1280.css */
+/*this file lengthens the page size to ensure that content fits on screen of device up to 1280px width */
+
+#about {
+	height: 18.67%;	
+}
+
+#services {
+	height: 18.67%;	
+}
+
+#faq {
+	height: 18.67%;	
+}
+
+#testimonials {
+	height: 18.67%;
+}
+
+#contact {
+	height: 18.67%;
+}

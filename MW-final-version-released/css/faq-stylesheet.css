@@ -1,0 +1,46 @@
+
+/* faq-stylesheet.css */
+/* this doc controls design for the FAQ page */ 
+
+/* page setup */
+#faq {
+	height: 16.67%;
+	background-color: #f8f9f9;
+	overflow: hidden;
+	padding: 3.5%;	
+}
+
+
+/* faq container */
+#faqBox {
+	height: 60%;
+	max-width: 90%;
+	padding: 3%;
+	margin-left: 3%;
+	margin-top: -1%;
+	margin-right: 2%;
+	color: #595959;
+	overflow: scroll;
+	float: left;
+	border-style: double;
+	position: relative;
+	border-color: #595959;
+}
+
+
+/* text formatting */
+h3.faq {
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #7bc9b7;
+} 
+
+p.faq {
+	margin-top: .2em;
+	margin-bottom: 1em;
+}
+ 
+a {
+	text-transform: none;
+	color: #29609e;
+}

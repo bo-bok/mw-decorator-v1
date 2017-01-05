@@ -1,0 +1,9 @@
+
+/* stylesheet-max-width640.css */
+/*this file contains minor edits to improve site for phones (less than 680px), from the 800px settings */
+
+
+h1.pageTitle {
+		margin-top: 18%;
+}
+
